@@ -217,6 +217,22 @@ const addCuriosityWaypointsForSelectDomElements = (
   const roverRouteSolArrayNumbers = roverRouteSolArray.map((value) => {
     return parseInt(value);
   });
+  //newly added code
+  // const waypointsToAddCuriosity = curiosityMapInfo.map((value) => {
+  //   return value.sol;
+  // });
+  // console.log(waypointsToAddCuriosity);
+
+  // waypointsToAddCuriosity.forEach((value) => {
+  //   addRoverWaypoints(
+  //     adjustedCenterRoverPositionsX,
+  //     adjustedCenterRoverPositionsY,
+  //     i,
+  //     roverRouteSolArray[i],
+  //     roverRouteDistanceMiles[i]
+  //   );
+  // });
+
   for (let i = 0; i < roverRouteSolArrayNumbers.length; i++) {
     if (roverRouteSolArrayNumbers[i] === 3) {
       addRoverWaypoints(
