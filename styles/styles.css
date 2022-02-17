@@ -88,7 +88,9 @@ body * + * {
   /* Rovey's introduction text box */
   .intro-text {
     width: 83%;
-    font-family: "Permanent Marker", cursive;
+    /* font-family: 'Cabin Sketch', cursive; */
+     /* font-weight: 400;  */
+    font-family: "Permanent Marker", cursive; 
     font-size: 1.7rem;
     letter-spacing: 0.1em;
     text-align: center; /*might try removing this */
