@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #fcef68;
+  background-color: #fff47d;
   margin: 2.5em;
 }
 
@@ -29,43 +29,45 @@ body * + * {
   display: contents;
 }
 
-
- 
-  .intro-section {
-    height: 57vh;
-    width: 100%;
-    max-width: 1300px;
-    min-height: 600px;
-    margin: 0 auto;
-    border: 1px solid red;
-  }
+.intro-section {
+  height: 57vh;
+  width: 100%;
+  max-width: 1300px;
+  min-height: 600px;
+  margin: 0 auto;
+}
 
   .logo-and-navigation-flexbox {
     height: 9vh;
+    min-height: 70px;
     width: 100%;
     display: flex;
     align-items: center;
-    border: 1px solid red;
   }
 
   .bee-container {
     height: 100%;
     width: 12%;
+    min-width: 125px;
     margin-left: 1%;
     display: inline-block;
     overflow: hidden;
-    border: 1px solid red;
   }
 
   .bee-container > img {
-    max-height: 120%;
+    max-height: 105%;
     display: inline-block;
-    transform: rotate(-15deg);
-    margin-top: -5px;
+    position: relative;
+    transform: rotate(-20deg);
+    left: 25px;
+    bottom: 5px;
+    /* margin-right: px; */
+    /* border: 1px solid green; */
   }
 
   .navigation {
     margin: 0;
+    margin-left: 1.4em;
     font-size: 1.2rem;
     font-family: 'Cabin Sketch', cursive;
     font-weight: 400;
@@ -87,7 +89,7 @@ body * + * {
 
   /* Rovey's introduction text box */
   .intro-text {
-    width: 83%;
+    width: 78%;
     /* font-family: 'Cabin Sketch', cursive; */
      /* font-weight: 400;  */
     font-family: "Permanent Marker", cursive; 
@@ -97,22 +99,11 @@ body * + * {
     padding: 1.5em;
     color: white;
     background-color: #77c8b5;
-
+    border-radius: .7em;
     /* min-height: 500px; */
     margin: 0;
     z-index: 10;
   }
-
-  /* .star {
-    grid-area: 3/ 11 / span 3 / span 3;
-    margin-top: 0;
-  }
-
-  .star img {
-    height: 100%;
-    display: block;
-    object-position: cover;
-  } */
 
   /* rovey container element */
   .rovey-outer-container {
@@ -121,71 +112,20 @@ body * + * {
 
   .rovey-inner-container {
     position: relative;
-    /* margin-left: 3%; */
-    left: -150px;
+    left: -100px;
     top: 240px;
-    margin-left: 20%;
-    overflow: hidden;
-    border-radius: 50%;
-  border: rgb(148, 233, 115) 8px solid;
-    height: 32vmin;
-    width: 32vmin;
-    background-color: white;
+    height: 36vmin;
+    width: 36vmin;
+    min-height: 250px;
     z-index: 15;
   }
 
  .rovey-inner-container > img {
-    transform: scaleX(-1);
-    object-position: cover;
     position: relative;
-    height: 175%;
-    margin-left: -125px;
-    top: 43px;
-    min-width: 200px ;
-  }
-
-  .planet {
-    position: absolute;
-
-  }
-
-  .planet img {
-    object-position: contain;
     height: 100%;
+    min-width: 175px ;
+    min-height: 175px;
   }
-
-  .moon {
-    grid-area: 10/ 8 / span 2 / span 2;
-  }
-
-  .moon img {
-    height: 100%;
-    object-position: cover;
-  }
-
-/* .planet2 {
-  position: absolute;
-  right: 200px;
-  top: 100px;
-
-} */
-
-  /* .intro-text::after {
-    content: "";
-    border-bottom: 3px dotted #666;
-    border-right: 3px dotted #666;
-    display: block;
-    height: 50px;
-    width: 100px;
-    z-index: 15;
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: 350px;
-    top: 525px;
-    border: 25px solid;
-    border-color: #b7bdf7 #b7bdf7 transparent transparent;
-  } */
 
   /* planet and rover map flex container */
   .planet-map-container {
@@ -214,7 +154,7 @@ body * + * {
     /* margin-top: -80%; */
     margin-bottom: 800px;
     margin-left: 13.5em;
-    margin-top: 1em;
+    margin-top: 1.5em;
     transition: all 300ms ease-in-out;
   }
 
@@ -1545,62 +1485,34 @@ body * + * {
   /* CSS grid for intro section */
   .intro-section {
     height: 60vh;
-    
   }
 
   .logo-and-navigation-flexbox {
     height: 10vh;
-  
+  }
+    .navigation {
+    margin-left: 8em;
   }
 
-  
-
-  
-
   .logo-and-navigation-flexbox li {
-   
     font-size: 1.4em;
   
   }
 
-  
-
   /* Rovey's introduction text box */
   .intro-text {
-
     font-size: 1.9rem;
-
-    /* background-color: #6cc8bb; */
-
   }
-
-  /* .star {
-    grid-area: 3/ 11 / span 3 / span 3;
-    margin-top: 0;
-  }
-
-  .star img {
-    height: 100%;
-    display: block;
-    object-position: cover;
-  } */
-
- 
 
   .rovey-inner-container {
-
     margin-left: 15%;
-
     height: 35vmin;
     width: 35vmin;
-
   }
 
 .rovey-inner-container > img {
-
-    height: 180%;
-    margin-left: -160px;
-
+    height: 110%;
+    margin-left: -80px;
   }
 
   .planet {
