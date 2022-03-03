@@ -577,7 +577,7 @@ const populateTimeline = (infoArray, roverDataArrayMultipleFetches) => {
         if (i === 5) {
           timelineElementsContent[
             i
-          ].innerHTML = `<div class="square-element"><div class="timeline-headline">${infoArray[squareElementsCounter].headline}</div><div class="timeline-subheading">${infoArray[squareElementsCounter].subheading}</div><div class = "timeline-image-container"><img src="${roverDataArrayMultipleFetches[squareElementsCounter].randomPhotoUrl1}"></div><div class="timeline-link">${infoArray[squareElementsCounter].link}</div></div>`;
+          ].innerHTML = `<div class="square-element"><div class="timeline-headline">${infoArray[squareElementsCounter].headline}</div><div class="timeline-subheading">${infoArray[squareElementsCounter].subheading}</div><div class = "timeline-image-container"><img src="${roverDataArrayMultipleFetches[squareElementsCounter].randomPhotoUrl1}"></div><a class="timeline-link" href = "${infoArray[squareElementsCounter].link}">Learn more</a></div>`;
           timelineElementsContent[
             i
           ].innerHTML += ` <div class="rovey-timeline-container">
@@ -588,7 +588,7 @@ const populateTimeline = (infoArray, roverDataArrayMultipleFetches) => {
         } else {
           timelineElementsContent[
             i
-          ].innerHTML = `<div class="square-element"><div class="timeline-headline">${infoArray[squareElementsCounter].headline}</div><div class="timeline-subheading">${infoArray[squareElementsCounter].subheading}</div><div class = "timeline-image-container"><img src="${roverDataArrayMultipleFetches[squareElementsCounter].randomPhotoUrl1}"></div><div class="timeline-link">${infoArray[squareElementsCounter].link}</div></div>`;
+          ].innerHTML = `<div class="square-element"><div class="timeline-headline">${infoArray[squareElementsCounter].headline}</div><div class="timeline-subheading">${infoArray[squareElementsCounter].subheading}</div><div class = "timeline-image-container"><img src="${roverDataArrayMultipleFetches[squareElementsCounter].randomPhotoUrl1}"></div><a class="timeline-link" href = "${infoArray[squareElementsCounter].link}">Learn more</a></div>`;
           squareElementsCounter += 1;
         }
       }
@@ -610,7 +610,7 @@ const populateTimeline = (infoArray, roverDataArrayMultipleFetches) => {
         if (i === 5) {
           timelineElementsContent[
             i
-          ].innerHTML = `<div class="square-element"><div class="timeline-headline">${infoArray[squareElementsCounter].headline}</div><div class="timeline-subheading">${infoArray[squareElementsCounter].subheading}</div><div class = "timeline-image-container"><img src="${roverDataArrayMultipleFetches[squareElementsCounter].randomPhotoUrl1}"></div><div class="timeline-link">${infoArray[squareElementsCounter].link}</div></div>`;
+          ].innerHTML = `<div class="square-element"><div class="timeline-headline">${infoArray[squareElementsCounter].headline}</div><div class="timeline-subheading">${infoArray[squareElementsCounter].subheading}</div><div class = "timeline-image-container"><img src="${roverDataArrayMultipleFetches[squareElementsCounter].randomPhotoUrl1}"></div><a class="timeline-link" href = "${infoArray[squareElementsCounter].link}">Learn more</a></div>`;
           timelineElementsContent[
             i
           ].innerHTML += ` <div class="rovey-timeline-container">
@@ -621,7 +621,7 @@ const populateTimeline = (infoArray, roverDataArrayMultipleFetches) => {
         } else {
           timelineElementsContent[
             i
-          ].innerHTML = `<div class="square-element"><div class="timeline-headline">${infoArray[squareElementsCounter].headline}</div><div class="timeline-subheading">${infoArray[squareElementsCounter].subheading}</div><div class = "timeline-image-container"><img src="${roverDataArrayMultipleFetches[squareElementsCounter].randomPhotoUrl1}"></div><div class="timeline-link">${infoArray[squareElementsCounter].link}</div></div>`;
+          ].innerHTML = `<div class="square-element"><div class="timeline-headline">${infoArray[squareElementsCounter].headline}</div><div class="timeline-subheading">${infoArray[squareElementsCounter].subheading}</div><div class = "timeline-image-container"><img src="${roverDataArrayMultipleFetches[squareElementsCounter].randomPhotoUrl1}"></div><a class="timeline-link" href = "${infoArray[squareElementsCounter].link}">Learn more</a></div>`;
           squareElementsCounter += 1;
         }
       }
